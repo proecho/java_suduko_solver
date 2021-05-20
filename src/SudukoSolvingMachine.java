@@ -22,6 +22,7 @@ public class SudukoSolvingMachine extends JFrame {
 		getContentPane().setLayout(null);
 		
 		table = new JTable(values,columnNames);
+		table.setCellSelectionEnabled(true);
 		table.setBounds(72, 23, 294, 242);
 		getContentPane().add(table);
 		
